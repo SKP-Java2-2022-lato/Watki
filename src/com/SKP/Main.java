@@ -7,7 +7,10 @@ public class Main {
        /// classRun();
         //race();
         //NaiveConsumerProducer.run();
-        ConsumerProducer.run();
+        //ConsumerProducer.run();
+       // Volatile.run();
+        new NestedThread(3).run();
+
 
     }
 
